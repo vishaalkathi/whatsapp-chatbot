@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: whatsapp-chatbot
+    env: java
+    buildCommand: ./mvnw clean package -DskipTests
+    startCommand: java -jar target/whatsapp-chatbot-1.0.0.jar
+    envVars:
+      - key: PORT
+        value: 8080
+    healthCheckPath: /webhook/health
