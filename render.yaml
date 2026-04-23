@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: whatsapp-chatbot
+    runtime: java
+    buildCommand: mvn clean install
+    startCommand: java -jar target/*.jar
