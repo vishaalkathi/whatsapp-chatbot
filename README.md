@@ -32,7 +32,7 @@ This project exposes a REST API that receives messages and responds with predefi
 ### 🔗 Base URL
 
 ```
-https://your-app-name.up.railway.app
+whatsapp-chatbot-production-32c9.up.railway.app
 ```
 
 ### 📥 POST `/webhook`
@@ -123,12 +123,6 @@ http://localhost:8080/webhook
 ## 🌍 Deployment
 
 This project is deployed on Railway.
-
----
-
-## 🎥 Demo
-
-(Attach your demo video link here)
 
 ---
 
